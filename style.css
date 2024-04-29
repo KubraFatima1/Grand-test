@@ -1,0 +1,52 @@
+.body{
+    background-image: url(image/image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+ .icin{
+    display: flex;
+    justify-content: end;
+    margin-right: 20px;
+ }
+ .inic img{
+    padding-left: 20px;
+ }
+
+ .nav{
+    display: flex;
+    justify-content: center;
+ }
+.navbar{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+button{
+    background-color: blueviolet;
+    padding: 10px;
+    margin: 2rem;
+    text-transform: lowercase;
+
+}
+.heading{
+    text-transform: uppercase;
+    line-height: 2rem;
+    width: 15rem;
+    font-weight: 100;
+    margin: 3rem;
+    font-size: larger;
+}
+
+.lorem{
+    width: 20rem;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+}
